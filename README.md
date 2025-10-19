@@ -9,7 +9,7 @@
  class Lakshya < Person
   def initialize
     @name = 'Lakshya Gupta'
-    @age = 18
+    @age = 20
     @superpowers = ['Code Whisperer', 'All-Nighter Programmer', 'Snack Connoisseur']
     @education = ['VIT Vellore - B.Tech CSE (Data Science Specialization)']
     @hobbies = ['Messing up code', 'Eating Maggi at 2 AM']
