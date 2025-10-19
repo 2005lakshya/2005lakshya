@@ -1,6 +1,6 @@
 <h1 align="center">Hi , I'm Lakshya <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1> 
 
-## <picture><img src = "https://github.com/2005lakshya/2005lakshya/blob/main/about_me.gif" width = 50px></picture> About me [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_lakshya2005) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshya-gupta2005/) <picture> 
+## <picture><img src = "https://github.com/2005lakshya/2005lakshya/blob/main/about_me.gif" width = 50px></picture> About me [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/__lakshya2005) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshya-gupta2005/) <picture> 
 
 
 
