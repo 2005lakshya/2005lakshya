@@ -17,11 +17,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # Step 1: Checkout repository without credentials
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # important for gh-pages pushes
+          persist-credentials: false
 
+      # Step 2: Generate the snake animations
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
@@ -33,6 +35,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Step 3: Ensure the 'output' branch exists
+      - name: Setup output branch
+        run: |
+          git fetch origin output || git checkout --orphan output
+          git checkout -B output
+
+      # Step 4: Deploy to 'output' branch
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
