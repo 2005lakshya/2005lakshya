@@ -4,7 +4,7 @@
 
 
 
-<img align="right" src="https://github.com/2005lakshya/2005lakshya/blob/main/IDEs.gif" width = 250px></picture>
+<img align="right" src="https://github.com/2005lakshya/2005lakshya/blob/main/IDEs.gif" width = 150px></picture>
  ```ruby
  class Lakshya < Person
   def initialize
